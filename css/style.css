@@ -1,0 +1,236 @@
+/* Navigation */
+*{
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1383px;
+    width:90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+@font-face {
+    font-family: 'Poppins Medium';
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face { 
+    font-family: 'Poppins black';
+    src: url(../fonts/Poppins-Black.ttf);
+}
+@font-face {
+    font-family: 'Poppins Italic';
+    src: url(../fonts/Poppins-Italic.ttf);
+}
+@font-face {
+    font-family: 'Poppins Bold';
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: 'FiraGo Medium';
+    src: url(../fonts/FiraGO-Medium.ttf);
+}
+@font-face {
+    font-family: 'FiraGo Regular' ;
+    src: url(../fonts/FiraGO-Regular.ttf);
+}
+@font-face {
+    font-family: 'FiraGo Bold';
+    src: url(../fonts/FiraGO-Bold.ttf);
+}
+@font-face {
+    font-family: 'Andada Pro';
+    src: url(../fonts/AndadaPro-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'Andada Pro Italic';
+    src: url(../fonts/AndadaPro-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Open Sans Italic';
+    src: url(../fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: 'malayalam mn';
+    src: url(../fonts/malayalam-mn.ttf);
+}
+header {
+    margin-top: 32px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.nav {
+    display: flex;
+    padding-top: 20px;
+    font-family: 'Poppins Medium';
+}
+.home, .shop, .about, .blog {
+    padding-right: 53.55px;
+}
+.logo-wrapper, .nav{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.user-icon, .shopping-cart{
+    padding: 16px 31px;
+}
+/* Blue search bar  */
+.blue-background{
+    width: 1441px;
+    height: 62px;
+    background-color: #0052CC;
+    margin-top: 52px;
+}
+.container-2 {
+    max-width: 1383px;
+    width:90%;
+    margin: 0 auto;
+    display: flex;
+}
+.hamburger-menu{
+    padding: 22px 14px 17px 0px;
+    position: relative;
+ 
+}
+.categories{
+    padding: 26px 0px 17px 14px;
+    font-family:'Poppins Medium';
+    color: #FFFFFF;
+    position: relative;
+}
+.search-input{
+    display: flex;
+    align-items: center;
+    padding: 11px 206px 10px 48px;
+    margin: 10px 0px 11px 300px;
+
+    font-family:'Poppins Medium';
+    border-color: #FFFFFF;
+    border-radius: 6px;
+}
+.search-icon{
+    margin-top: 21px;
+    padding-left: 453px;
+    position: relative;
+}
+.span-search-icon{
+    position: absolute;
+}
+.home-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 86px;
+    
+    font-family: 'Poppins Medium';
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.container-3{
+    max-width: 1383px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+.phones{
+    padding: 81px 60px 0px 0px;
+}
+.Galaxy-A3{
+    margin-left: 75px;
+}
+.Galaxy-A3, .Iphone-8, .Iphone-X, .Galaxy-S9{
+    margin-bottom: 233px;
+}
+.Galaxy-A3, .Iphone-8, .Iphone-X {
+    margin-right: 62px;
+    display: inline-block;
+}
+.Galaxy-S9 {
+    display: inline-block;
+}
+.model, .price, .date, .see-more{
+    display: inline-block;
+}
+.model-price{
+    padding: 15px 0px;
+    border-bottom: 1px solid #3F69FF;
+}
+.date-more {
+    padding-top: 15px;
+}
+.model{
+    padding-right: 80px;
+}
+.date{
+    padding-right: 102px;
+}
+.model-2, .price-2, .date-2, .see-more-2{
+    display: inline-block;
+}
+.model-2{
+    padding-right: 92px;
+}
+.date-2{
+    padding-right: 68px;
+}
+.model-3, .price-3, .date-3, .see-more-3{
+    display: inline-block;
+}
+.model-3{
+    padding-right: 130px;
+}
+.date-3{
+    padding-right: 67px;
+}
+.model-4, .price-4, .date-4, .see-more-4{
+    display: inline-block;
+}
+.model-4{
+    padding-right: 124px;
+}
+.date-4{
+    padding-right: 63px;
+}
+.model, .model-2, .model-3, .model-4 {
+    font-family:'Poppins Medium';
+    font-size: 16px;
+}
+.price, .price-2, .price-3, .price-4{
+    font-family:'Poppins Italic';
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #373737;
+}
+.date, .date-2, .date-3, .date-4{
+    font-family: 'Poppins Medium';
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #6A6A6A;    
+}
+.see-more, .see-more-2, .see-more-3, .see-more-4{
+    font-family: 'Poppins Medium';
+    font-size: 12px;
+    text-transform: capitalize;
+}
+/* footer */
+
+.logo-smart-shop{
+    width: 122px;
+    height: 36px;
+}
+.container-4{
+    max-width: 1383px;
+    width: 100%;
+    margin: 0 auto;
+}
+.footer-blue-background {
+    position: absolute;
+    width: 1441px;
+    height: 249px;
+    background-color: #0052CC;
+} 
+
