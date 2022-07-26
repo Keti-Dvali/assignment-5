@@ -73,6 +73,10 @@ a{
 .home, .shop, .about, .blog {
     padding-right: 53.55px;
 }
+.home:hover, .shop:hover, .about:hover, .blog:hover, .contact:hover{
+    color: #0052CC;
+    text-decoration: underline;
+}
 .logo-wrapper, .nav{
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -130,23 +134,75 @@ a{
     font-size: 20px;
     text-transform: capitalize;
 }
-.container-3{
-    max-width: 1383px;
-    width: 90%;
-    margin: 0 auto;
+.cards{
     display: flex;
+    justify-content: space-between;
+    margin: 81px 0px 0px 60px;
 }
-.phones{
-    padding: 81px 60px 0px 0px;
+.phone-1{
+    width: 260px;
+    height: 340px;
+    background: url(../img/CARD\ 1.png);
+    background-repeat: no-repeat;
+    background-position: top;
 }
-.Galaxy-A3{
+.phone-1:hover{
+    width: 260px;
+    height: 340px;
+    background: url(../img/CARD\ 1\ back.png);
+    background-repeat: no-repeat;
+    background-position: top;  
+}
+.phone-2{
+    width: 260px;
+    height: 340px;
+    background: url(../img/CARD\ 2.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.phone-2:hover{
+    width: 260px;
+    height: 340px;
+    background: url(../img/CARD\ 2\ back.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.phone-3{
+    width: 260px;
+    height: 340px;
+    background: url(../img/CARD\ 3.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.phone-3:hover{
+    width: 260px;
+    height: 340px;
+    background: url(../img/CARD\ 3\ back.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.phone-4{
+    width: 260px;
+    height: 340px;
+    background: url(../img/CARD\ 4.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.phone-4:hover{
+    width: 260px;
+    height: 340px;
+    background: url(../img/CARD\ 4\ back.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.Galaxy-A3 {
     margin-left: 75px;
 }
 .Galaxy-A3, .Iphone-8, .Iphone-X, .Galaxy-S9{
     margin-bottom: 233px;
 }
 .Galaxy-A3, .Iphone-8, .Iphone-X {
-    margin-right: 62px;
+    margin-right: 58px;
     display: inline-block;
 }
 .Galaxy-S9 {
@@ -232,5 +288,68 @@ a{
     width: 1441px;
     height: 249px;
     background-color: #0052CC;
-} 
+}
+.logo-footer{
+    margin: 44px 0px 0px 83px;
+}
+.icons{
+    display: inline-block;
+    margin: 99px 0px 0px 83px;
+}
+.list-footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -155px;
+    margin-left: 274px;
 
+    font-family:'Poppins Medium';
+    color: #FFFFFF;
+
+}
+.padding-bottom{
+    padding-bottom: 13px;
+}
+.insta-icon{
+    margin-right: 17px;
+}
+.li-icon{
+    margin-right: 14px;
+}
+.input-mail{
+    padding: 12px 123px 10px 18px;
+    margin-bottom: 26px;
+    font-family: 'Poppins-Medium';
+    text-transform: capitalize;
+    border-radius: 6px;
+    border-color: #FFFFFF;
+}
+.vector{
+    display: flex;
+    margin-left: 258px;
+    margin-top: -86px;
+}
+.who-we-are{
+    width: 817px;
+    height: 263px;
+    margin-top: 58px;
+    display: inline-block;
+    position: absolute;
+
+}
+.about-title{
+    padding-left: 525px;
+    font-family: 'Poppins Bold';
+    font-size: 24px;
+    color: #0052CC;
+}
+.about-text{
+    padding: 45px 0px 0px 115px;
+}
+.smart-shop-black{
+    font-weight: bold;
+}
+.two-phones{
+    display: inline-block;
+    margin: 81px 0px 0px 1131px;
+    position: relative;
+}
